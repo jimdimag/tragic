@@ -1,0 +1,164 @@
+@import "variables";
+
+header {
+    margin-bottom: 40px;
+    @media (min-width: 768px) {
+        margin-bottom: 0px;
+    }
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    text-transform: uppercase;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.stack {
+    display: block;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.auto {
+    margin: auto;
+}
+hr {
+    border-top: 1px solid $light-grey;
+}
+.pl {
+    padding-left: 0;
+    @media (min-width: 768px) {
+    padding-left: 160px;
+    }
+}
+.orange {
+    color: $orange;
+    text-transform: uppercase;
+}
+button {
+    border: none;
+    background-color: #fff;
+    padding: 0;
+}
+.bb {
+    font-size: 20px;
+    font-weight: bold;
+}
+.mg {
+    color: $mg;
+}
+.blue {
+    color: #424f54;
+}
+.show-small {
+    display: block;
+    margin: 50px 0;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.hide-small {
+    display: none;
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.topBar {
+    background-color: $orange;
+    padding: 5px 0;
+    li {
+        color: #fff;
+        a {
+            color: #fff;
+        }
+    }
+}
+.top {
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+.grey {
+    color: $grey;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    @media (min-width:1200px) {
+    width: 1140px;
+    }
+}
+.navbar-inverse .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+.topNav {
+    position: relative;
+    color: $light-grey;
+    
+}
+.sub-nav {
+    flex-direction: column;
+    padding-left: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    li {
+        padding: 0 5px;
+        color: $mg;
+    }
+    :first-child {
+        padding-left: 0;
+    }
+    @media (min-width: 768px) {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+}
+.logoBar, .nike {
+    margin: 10px 0;
+    @media (min-width: 768px) {
+    margin: 50px 0;
+    }
+}
+.logoBar div:last-child {
+    margin-top: 25px;
+}
+.nike {
+    .container {
+        width: 1450px;
+        max-width: 100%;
+       
+    } 
+    .image {
+            @media (max-width:1024px) {
+                max-width: 100%;
+            }
+        }
+}
+.item > div {
+    margin: 50px 0;
+}
+.desc {
+    p {
+        margin: 0;
+        text-transform: uppercase;
+    }
+    hr {
+        margin: 0;
+    }
+}
+

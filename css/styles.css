@@ -1,0 +1,169 @@
+header {
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    header {
+      margin-bottom: 0px; } }
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+li {
+  text-transform: uppercase; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.stack {
+  display: block;
+  margin-bottom: 0;
+  padding-left: 0; }
+
+.auto {
+  margin: auto; }
+
+hr {
+  border-top: 1px solid #929292; }
+
+.pl {
+  padding-left: 0; }
+  @media (min-width: 768px) {
+    .pl {
+      padding-left: 160px; } }
+
+.orange {
+  color: #eb6e1f;
+  text-transform: uppercase; }
+
+button {
+  border: none;
+  background-color: #fff;
+  padding: 0; }
+
+.bb {
+  font-size: 20px;
+  font-weight: bold; }
+
+.mg {
+  color: #696a6c; }
+
+.blue {
+  color: #424f54; }
+
+.show-small {
+  display: block;
+  margin: 50px 0; }
+  @media (min-width: 768px) {
+    .show-small {
+      display: none; } }
+
+.hide-small {
+  display: none; }
+  @media (min-width: 768px) {
+    .hide-small {
+      display: block; } }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.topBar {
+  background-color: #eb6e1f;
+  padding: 5px 0; }
+  .topBar li {
+    color: #fff; }
+    .topBar li a {
+      color: #fff; }
+
+.top {
+  padding-left: 0;
+  margin-bottom: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .top {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+
+.grey {
+  color: #222f35; }
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%; }
+  @media (min-width: 1200px) {
+    .navbar-nav {
+      width: 1140px; } }
+
+.navbar-inverse .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1); }
+
+.topNav {
+  position: relative;
+  color: #929292; }
+
+.sub-nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  font-size: 20px;
+  margin-bottom: 10px; }
+  .sub-nav li {
+    padding: 0 5px;
+    color: #696a6c; }
+  .sub-nav :first-child {
+    padding-left: 0; }
+  @media (min-width: 768px) {
+    .sub-nav {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      margin-bottom: 0; } }
+
+.logoBar, .nike {
+  margin: 10px 0; }
+  @media (min-width: 768px) {
+    .logoBar, .nike {
+      margin: 50px 0; } }
+
+.logoBar div:last-child {
+  margin-top: 25px; }
+
+.nike .container {
+  width: 1450px;
+  max-width: 100%; }
+
+@media (max-width: 1024px) {
+  .nike .image {
+    max-width: 100%; } }
+
+.item > div {
+  margin: 50px 0; }
+
+.desc p {
+  margin: 0;
+  text-transform: uppercase; }
+
+.desc hr {
+  margin: 0; }
