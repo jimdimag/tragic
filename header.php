@@ -8,9 +8,10 @@ include_once 'head.php'
             <ul class="top">
                 <li>Up to 25% off + $30 off <span class="grey">rx snow goggle orders of $225 or more. use code:</span>goggleblowout</li>
                 <li>details &RightAngleBracket;&RightAngleBracket;</li>
-                <li>sign in</li>
                 <li>
-                    <img src="images\cart.png">
+                    <a href="#" tabindex="0" role="menuitem"  aria-hidden="true">sign in</a></li>
+                <li>
+                <a href="#" tabindex="0" role="menuitem"  aria-hidden="true"><img src="images\cart.png" alt="shopping cart image"></a>
                 </li>
             </ul>
         </div>
@@ -29,26 +30,26 @@ include_once 'head.php'
                 <ul class="navbar-nav">
                     <li class="topNav">shop by
                         <ul class="sub-nav ">
-                            <li>sport</li>
-                            <li>category</li>
-                            <li>brand</li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">sport</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">category</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">brand</a></li>
                             <li>&nbsp;</li>
-                            <li>men</li>
-                            <li>women</li>
-                            <li>kids</li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">men</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">women</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">kids</a></li>
                         </ul>
                     </li>
                     <li class="topNav"> search by
                         <ul class="sub-nav">
-                            <li>rx</li>
-                            <li>analyzer</li>
-                            <li>help/guides</li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">rx</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">analyzer</a></li>
+                            <li><a href="#" tabindex="0" role="menuitem"  aria-hidden="true">help/guides</a></li>
                         </ul>
                     </li>
                     <li class="topNav">&nbsp;
                         <ul class="sub-nav">
                             <li>
-                                <img src="images\search.png">
+                            <a href="#" tabindex="0" role="menuitem"  aria-hidden="true"><img src="images\search.png" alt="Search image"></a>
                             </li>
                         </ul>
                         </div>

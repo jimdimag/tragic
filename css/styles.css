@@ -35,7 +35,7 @@ hr {
 
 .pl {
   padding-left: 0; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .pl {
       padding-left: 160px; } }
 
@@ -79,6 +79,9 @@ button {
   padding: 5px 0; }
   .topBar li {
     color: #fff; }
+    @media (max-width: 768px) {
+      .topBar li {
+        max-width: 450px; } }
     .topBar li a {
       color: #fff; }
 
@@ -129,7 +132,8 @@ button {
   font-size: 20px;
   margin-bottom: 10px; }
   .sub-nav li {
-    padding: 0 5px;
+    padding: 0 5px; }
+  .sub-nav a {
     color: #696a6c; }
   .sub-nav :first-child {
     padding-left: 0; }

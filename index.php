@@ -6,13 +6,13 @@ include_once 'header.php'
     <div class="container">
         <div class="row">
         <div class="col-md-6 col-lg-4 auto">
-            <img src="images/bptw.png">
+            <img src="images/bptw.png" alt="Best places to work logo">
         </div>
         <div class="col-md-6 col-lg-4 auto">
-        <img src="images/sport.png">
+        <img src="images/sport.png" alt="Sport RX Logo">
         </div>
         <div class="col-md-6 col-lg-3 auto">
-        <img src="images/phone.png" class="fl mt-10">
+        <img src="images/phone.png" class="fl mt-10" alt="image of phone">
         <ul class="stack bb fl">
             <li class="mg">call an optician</li>
             <li>
@@ -28,7 +28,7 @@ include_once 'header.php'
         <div class="row">
             <div class="col-md-5 item">
                <div class="banner">
-                   <img src="images/new.png" class="image">
+                   <img src="images/new.png" class="image" alt="What's new at Nike'">
                </div> 
                <div class="desc pl">
                    <p class="orange bb">all around sport:</p>
@@ -36,16 +36,16 @@ include_once 'header.php'
                    <p class="bb blue">Skylon ace xv</p>
                </div>
                <div class="shop pl hide-small">
-                   <button>
-                       <img src="images/btn2.png" class="image">
-                   </button>
+                   <a href="https://www.nike.com/w/sunglasses-arlyp" target="_blank">
+                       <img src="images/btn2.png" class="image" alt="Shop Nike">
+</a>
                </div>
             </div>
             <div class="col-md-7">
                 <img src="images/glasses.png" class="image">
                 <div class="shop pl show-small">
                    <button>
-                       <img src="images/btn2.png" class="image">
+                       <img src="images/btn2.png" class="image" alt="Shop Nike">
                    </button>
                </div>
             </div>

@@ -33,7 +33,7 @@ hr {
 }
 .pl {
     padding-left: 0;
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
     padding-left: 160px;
     }
 }
@@ -77,6 +77,9 @@ button {
     padding: 5px 0;
     li {
         color: #fff;
+        @media (max-width:768px) {
+            max-width: 450px;
+        }
         a {
             color: #fff;
         }
@@ -118,8 +121,11 @@ button {
     margin-bottom: 10px;
     li {
         padding: 0 5px;
-        color: $mg;
+        
     }
+    a {
+        color: $mg;
+        }
     :first-child {
         padding-left: 0;
     }
